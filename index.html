@@ -1,23 +1,43 @@
 <!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- the best is doctype. the latest one is html5, but some of the largest email service providers and 
-    testing services still recommend XHTML 1.0 transitional as recommended doctype -->
-<!-- lang is used to set language for accesability -->
+
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <!-- to set character and number set standard  -->
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <!-- ensure proper rendering on IE and Edge web browsers -->
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- to control layout on web browsers and make it scalable -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light dark">
     <meta name="supported-color-schemes" content="light dark">
 
-    <title>HTML Email Test</title>
+    <title>Airbnb</title>
     <style type="text/css">
+        @media (prefers-color-scheme: dark) {
+
+            h2,
+            p,
+            td {
+                color: #fffffe !important;
+            }
+
+            .button.pink {
+                color: #ffffff !important;
+            }
+
+            .button.clear {
+                color: #fffffe !important;
+                border-color: #fffffe !important;
+            }
+        }
+
         @media screen and (max-width: 400px) {
+            .header {
+                font-size: 14px !important;
+            }
+
             .button {
                 font-size: 15px !important;
             }
@@ -26,9 +46,7 @@
                 font-size: 14px !important;
             }
 
-            .header {
-                font-size: 14px !important;
-            }
+
         }
     </style>
 </head>
@@ -188,7 +206,7 @@
                                     <tr>
                                         <td
                                             style="padding:20px 0px;text-align:center;border-radius:5px;border-color: #FF5A5F;background-color: #FF5A5F;">
-                                            <a class="button"
+                                            <a class="button pink"
                                                 style="text-decoration:none; color: #ffffff; font-size:18px;"
                                                 href="https://www.airbnb.com/login?redirect_params[action]=itinerary&redirect_params[c]=.pi80.pkcGF5bWVudHMvYmlsbF9yZWNlaXB0&redirect_params[code]=HMCMYJF9HP&redirect_params[controller]=reservation">
 
@@ -209,7 +227,7 @@
                                     <tr>
                                         <td
                                             style="padding:20px 0px;text-align:center;border-radius:5px;border: 1px solid #b3b3b3; color: #1a1a1a; background: transparent">
-                                            <a class="button"
+                                            <a class="button clear"
                                                 style="text-decoration:none; color: #313131; font-size:18px;"
                                                 href="https://www.airbnb.com/login?redirect_params[action]=itinerary&redirect_params[c]=.pi80.pkcGF5bWVudHMvYmlsbF9yZWNlaXB0&redirect_params[code]=HMCMYJF9HP&redirect_params[controller]=reservation">Go
                                                 to
